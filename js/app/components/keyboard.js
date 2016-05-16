@@ -1,9 +1,5 @@
-var Keybaord = React.createClass({
-  render: function() {
-    var idjq = 'C4';
-    var className="key key-white";
-
-    var pitches = {
+var Keyboard = React.createClass({
+  pitches: {
       'C': 'white',
       'Csh': 'black',
       'D': 'white',
@@ -16,8 +12,9 @@ var Keybaord = React.createClass({
       'A': 'white',
       'Ash': 'black',
       'B': 'white',
-    };
-
+    },
+  render: function() {
+    var pitches = this.pitches;
     return (
       <div>
         {[0,1,2,3,4,5,6].map((num) => {
@@ -39,6 +36,6 @@ var Key = React.createClass({
 });
 
 ReactDOM.render(
-  <Keybaord/>,
+  <Keyboard/>,
   document.getElementById('content')
 );

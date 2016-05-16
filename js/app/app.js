@@ -23,21 +23,6 @@ window.onload = function () {
           }
         });
       });
-
-      // document.querySelector('#Csh4').onclick = function() {
-      //   console.log("clicked Csh4!")
-      //   var delay = 0; // play one note every quarter second
-      //   var note = 51; // the MIDI note
-      //   var velocity = 127; // how hard the note hits
-      //   // play the note
-      //   MIDI.setVolume(0, 127);
-      //   MIDI.noteOn(0, note, velocity, delay);
-      //   MIDI.noteOff(0, note, delay + 0.5);
-      // }
     }
   });
 };
-
-// $(document).ready(function() {
-//   console.log("yay jquery")
-// });
