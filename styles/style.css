@@ -1,16 +1,20 @@
+* {
+  margin: 0;
+}
+
 .key {
   display: inline-block;
-}
-
-.key-white {
   border: 1px solid black;
   height: 200px;
-  width: 75px;"
+  width: 34px;
 }
+
+/*.key-white {}*/
 
 .key-black {
+  margin: 0 -12px 0 -12px;
   background-color: black;
-  border: 1px solid black;
-  height: 200px;
-  width: 75px;
+  width: 17px;
+  height: 100px;
+  vertical-align: top;
 }
